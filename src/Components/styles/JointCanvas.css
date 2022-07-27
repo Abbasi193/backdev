@@ -1,0 +1,14 @@
+.can {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.available-magnet {
+    fill: #5DA271;
+}
+
+/* element styling */
+.available-cell rect {
+    stroke-dasharray: 5, 2;
+}

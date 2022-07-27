@@ -1,0 +1,24 @@
+.variableDeclareButton {
+  background-color: rgb(168, 168, 168);
+    color: black;
+  display: block;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+align-items: center;
+justify-content: center;
+width: 120px;
+font-weight: bold;
+  }
+  .variableDeclareButton:hover{
+    background-color: rgb(131, 131, 131);
+    
+  }
+
+  .btnpic{
+    width: 20px;
+  }

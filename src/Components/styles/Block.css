@@ -1,0 +1,9 @@
+.block {
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    background-color: palegoldenrod;
+  }
+.closeButton{
+    float: right;
+}

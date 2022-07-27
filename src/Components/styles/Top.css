@@ -1,0 +1,32 @@
+.top{
+    background-color: rgb(240, 240, 240);
+    width: 100vw;
+    height: 50px;
+    
+    margin-top: -8px;
+    margin-left: -8px;
+    
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.toplogos{
+    width: 30px;
+}
+
+.topBtn{
+    margin: 5px;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.topBtn:hover{
+    background-color: rgb(210, 210, 210);
+}

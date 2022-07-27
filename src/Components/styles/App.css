@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: rgb(240, 240, 240);
+}
+.whole{
+  font-family: Copperplate, Papyrus, fantasy;
+  color: white;
+  background: rgb(0, 48, 78);
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  font-size: 30px;
+}
+
+.loader{
+    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+ 
+  width: 25%;
+  margin: auto;
+  
+  
+}
+
+.loader img{
+  margin: 0;
+  padding: 0;
+  
+  margin-bottom: -35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column{
+  
+  width: 17%;
+  float: right;
+  overflow: auto;
+  margin: 0;
+  padding:0.01em 16px;
+     
+    margin-bottom:16px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+   
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+    border:5px groove;
+}
+.columnLeft {
+  position: relative;
+  float: left;
+
+  width: 17%;
+  height: 50px;
+  background-color: rgb(223, 223, 223);
+  border-radius: 5px;
+  border:5px groove;
+ 
+  
+}
+.columnCenter {
+  float: left;
+  width: 63%;
+  padding: 10px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border:5px groove;
+}
+
+.row {
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading{
+  color: white;
+  background-color: rgb(0, 66, 107);
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  border-radius: 50px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+.big{
+  width: 75%;
+  margin: auto;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+
+}
+.btn{
+  
+  width: 350px;
+  height: auto;
+  border: none;
+  background-color: white;
+  color: rgb(2, 21, 37);
+ 
+  cursor: pointer;
+  border-radius: 10px;
+  top: 0;
+  float: left;
+  margin: 20px;
+}
+.btn:hover{
+  background-color: rgb(214, 233, 245);
+}
+.in{
+  display: inline-block;
+  padding: 10px;
+}
+.in p{
+  color: rgb(78, 78, 78);
+  font-size: 14px;
+}
+
+.blank{
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.fir{
+display: none;
+  background-image: url("background.jpg");
+  margin: -7px;
+  padding: -10px;
+  height: 99.5vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.para{
+
+  height: 48vh;
+}
+.var{
+  
+  height: 28vh;
+
+}
+hr {
+  width: 100vw;
+  margin-left: -20px;
+  margin-top: -5px;
+  
+  
+}
+hr.pa{
+  position: relative;
+  width: 16vw;
+  
+  
+}
+.work{
+  position: absolute;
+  width: 70px;
+  height: 33px;
+  display: inline-block;
+  right: 30px;
+  border-radius: 5px;
+  border: 2px groove;
+ 
+
+}
+label{
+  position: relative;
+  padding: 5px;
+  padding-left: 15px;
+  display: inline-block;
+  margin-left: -20px;
+  
+}
+
+.contain{
+  
+  display: flex;
+  align-items: center;
+ padding: -10px;
+
+}
+
+.logoe{
+  float: right;
+  width: 100px;
+}
+.headi{
+  background-color: rgb(0, 48, 78);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
+   
+    position: sticky;
+    top: 0;
+}
+
+.code{
+  width: 60%;
+  margin: auto;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  
+  border-radius: 5px;
+  border: 5px groove;
+  overflow: auto;
+  margin-top: 50px;
+}
+.textarea{
+  
+  width: 110px;
+  height: 33px;
+  display: inline-block;
+  right: 30px;
+  border-radius: 5px;
+  border: 2px groove;
+
+ 
+  
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    
+  }
+}

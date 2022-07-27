@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "check-git": "^2.0.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "l": "^0.6.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "socket.io": "^4.5.1"
+  }
+}
